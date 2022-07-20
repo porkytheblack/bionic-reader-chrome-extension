@@ -23,7 +23,7 @@ chrome.action?.onClicked.addListener((tab)=>{
         target: {
             tabId: tab.id ? tab.id : -1
         },
-        func: driver
+        files: ["extractor.ts"]
     }).then(()=>{
         console.log("Executed script")
     }).catch((e)=>{

@@ -27,3 +27,5 @@ export const driver = () =>{
     console.log("driver baby")
     extractor(document)
 }
+
+driver()
